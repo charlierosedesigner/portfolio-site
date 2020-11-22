@@ -28,3 +28,65 @@ h3 {
   font-size: 1.25em;
   font-weight: 700;
 }
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #f1f3f3;
+  font-weight: 500;
+}
+
+a:focus,
+a:hover {
+  color: #f1f3f380;
+}
+
+a:active {
+  color: #f1f3f360;
+}
+
+.button {
+  display: inline-block;
+  background-color: #f1f3f3;
+  color: #141616;
+  font-weight: 300;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:focus,
+.button:hover {
+  color: #14161680;
+}
+
+.button:active {
+  background-color: #f1f3f380;
+}
+
+.button.contact {
+  background-color: #141616;
+  color: #f1f3f3;
+  font-size: 0.8em;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #f1f3f3;
+}
+
+.button.contact:focus,
+.button.contact:hover {
+  background-color: #f1f3f3;
+  color: #141616;
+}
+
+.button.contact:active {
+  background-color: #f1f3f380;
+  color: #141616;
+  border: 1px solid #f1f3f380;
+}
