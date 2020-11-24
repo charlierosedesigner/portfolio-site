@@ -72,6 +72,10 @@ a:active {
   text-transform: uppercase;
 }
 
+.button:visited {
+  background-color: #f1f3f380;
+}
+
 .button:focus,
 .button:hover {
   color: #14161680;
@@ -89,6 +93,7 @@ a:active {
   border: 1px solid #f1f3f3;
 }
 
+.button.contact:visited,
 .button.contact:focus,
 .button.contact:hover {
   background-color: #f1f3f3;
