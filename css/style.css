@@ -95,3 +95,9 @@ a:active {
   color: #141616;
   border: 1px solid #f1f3f380;
 }
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
