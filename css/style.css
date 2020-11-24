@@ -98,6 +98,10 @@ a:active {
 
 /* Layout styling */
 
+.logo {
+  max-width: 250px;
+}
+
 .container {
   padding: 0 15px;
 }
