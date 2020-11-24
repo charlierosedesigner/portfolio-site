@@ -115,6 +115,11 @@ a:active {
   text-align: center;
 }
 
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -125,7 +130,18 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 0 10px;
   text-transform: uppercase;
   font-weight: 700;
+  text-decoration: none;
+}
+
+nav > ul > li > a:visited,
+nav > ul > li > a:focus,
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+nav > ul > li > a:active {
+  color: #f1f3f380;
 }
