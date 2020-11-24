@@ -18,9 +18,13 @@ body {
 }
 
 header {
-  background-color: #000000;
+  background-color: #141616;
   text-align: center;
   padding: 10px;
+  box-shadow: inset 0px 7px 8px 0px rgba(0, 0, 0, 1);
+  position: fixed;
+  display: inline-block;
+  width: 100%;
 }
 
 h1 {
@@ -113,6 +117,13 @@ a:active {
 
 #hero h1 {
   text-align: center;
+  margin: 0px;
+  padding: 0.67em 0;
+}
+
+#hero {
+  background-color: #141616;
+  padding-top: 250px;
 }
 
 nav {
