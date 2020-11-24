@@ -101,3 +101,11 @@ a:active {
 .container {
   padding: 0 15px;
 }
+
+.row {
+  padding: 25px 0;
+}
+
+#hero h1{
+  text-align: center;
+}
