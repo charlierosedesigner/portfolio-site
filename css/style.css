@@ -51,8 +51,7 @@ img {
   width: 100%;
 }
 
-a,
-a:visited {
+a {
   color: #f1f3f3;
   font-weight: 500;
 }
@@ -78,7 +77,7 @@ a:active {
 }
 
 .button:visited {
-  background-color: #f1f3f380;
+  background-color: #f1f3f3;
 }
 
 .button:focus,
