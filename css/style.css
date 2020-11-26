@@ -21,7 +21,7 @@ header {
   background-color: #141616;
   text-align: center;
   padding: 10px;
-  box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.5);
   position: fixed;
   display: inline-block;
   width: 100%;
@@ -166,9 +166,12 @@ nav > ul > li > a:active {
 }
 
 .social {
+  padding-left: 0px;
+}
+
+.social li {
   display: inline-block;
   list-style-type: none;
   padding-right: 10px;
-  height: 24px;
-  width: 24px;
+  font-size: 30px;
 }
