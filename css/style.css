@@ -120,12 +120,12 @@ a:active {
 }
 
 #hero h1 {
-  text-align: center;
   margin: 0px;
   padding: 0.67em 0;
 }
 
 #hero {
+  text-align: center;
   background-color: #141616;
 }
 
