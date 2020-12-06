@@ -124,6 +124,10 @@ a:active {
   padding: 0.67em 0;
 }
 
+#hero span {
+  display: block;
+}
+
 #hero {
   text-align: center;
   background-color: #141616;
@@ -185,6 +189,16 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin: 10px 0 0;
+  }
+
+  .col-md-6 {
+    width: 50%;
+    float: left;
+    padding-right: 24px;
+  }
+
+  .col-md-6-text {
+    float: right;
   }
 
 }
