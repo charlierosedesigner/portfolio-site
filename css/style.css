@@ -42,6 +42,12 @@ h2 {
   font-weight: 700;
 }
 
+h2::before {
+content: "";
+clear: both;
+display: table;
+}
+
 h3 {
   font-size: 1.25em;
   font-weight: 700;
@@ -119,6 +125,12 @@ a:active {
   padding: 25px 0;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #hero h1 {
   margin: 0px;
   padding: 0.67em 0;
@@ -194,11 +206,17 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
     float: left;
-    padding-right: 24px;
+    padding-right: 12px;
   }
 
   .col-md-6-text {
+    width: 50%;
     float: right;
+    padding-left: 12px;
+  }
+
+  .pro-title {
+    margin-top: 0px;
   }
 
 }
