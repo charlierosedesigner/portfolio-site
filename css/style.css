@@ -51,7 +51,8 @@ img {
   width: 100%;
 }
 
-a {
+a,
+a:visited {
   color: #f1f3f3;
   font-weight: 500;
 }
@@ -68,7 +69,7 @@ a:active {
 .button {
   display: inline-block;
   background-color: #f1f3f3;
-  color: #141616;
+  color: #141616!important;
   font-weight: 300;
   padding: 10px 20px;
   border-radius: 30px;
@@ -76,38 +77,32 @@ a:active {
   text-transform: uppercase;
 }
 
-.button:visited {
-  background-color: #f1f3f3;
-}
-
 .button:focus,
 .button:hover {
-  color: #14161680;
+  background-color: #f1f3f380;
 }
 
 .button:active {
   background-color: #f1f3f380;
 }
 
-.button.contact {
-  background-color: #141616;
-  color: #f1f3f3;
-  font-size: 0.8em;
-  padding: 5px 10px;
-  border: 1px solid #f1f3f3;
-}
-
-.button.contact:visited,
-.button.contact:focus,
-.button.contact:hover {
+.button.contact,
+.button.contact:visited {
   background-color: #f1f3f3;
   color: #141616;
+  font-size: 0.8em;
+  padding: 5px 10px;
+}
+
+.button.contact:focus,
+.button.contact:hover {
+  background-color: #f1f3f380;
+  color: #14161680;
 }
 
 .button.contact:active {
   background-color: #f1f3f380;
-  color: #141616;
-  border: 1px solid #f1f3f380;
+  color: #14161680;
 }
 
 /* Layout styling */
@@ -166,7 +161,7 @@ nav > ul > li > a:active {
 }
 
 .social {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .social li {
