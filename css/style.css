@@ -81,11 +81,12 @@ a:active {
   border-radius: 30px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.2s opacity;
 }
 
 .button:focus,
 .button:hover {
-  background-color: #f1f3f380;
+  opacity: 0.8;
 }
 
 .button:active {
@@ -102,7 +103,7 @@ a:active {
 
 .button.contact:focus,
 .button.contact:hover {
-  background-color: #f1f3f380;
+  opacity: 0.8;
   color: #14161680;
 }
 
