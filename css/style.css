@@ -188,6 +188,12 @@ nav > ul > li > a:active {
   font-size: 30px;
 }
 
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
