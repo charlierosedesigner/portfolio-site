@@ -1,5 +1,6 @@
 /*
 Colors used:
+Primary Color (Yellow): #ffee00;
 Primary Color (White): #f1f3f3;
 Secondary Color (Black): #141616;
 */
@@ -18,7 +19,7 @@ body {
 }
 
 header {
-  background-color: #141616;
+  background-color: #ffee00;
   text-align: center;
   padding: 10px;
   box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.5);
@@ -35,6 +36,10 @@ h1 {
   font-size: 2.75em;
   line-height: 1.2;
   font-weight: 700;
+}
+
+h1 span {
+  color: #ffee00;
 }
 
 h2 {
@@ -59,17 +64,19 @@ img {
 
 a,
 a:visited {
-  color: #f1f3f3;
+  color: #141616;
   font-weight: 500;
+  text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f1f3f380;
+  color: #14161680;
+  text-decoration: none;
 }
 
 a:active {
-  color: #f1f3f360;
+  color: #14161660;
 }
 
 .button {
