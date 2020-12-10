@@ -43,8 +43,9 @@ h1 span {
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 700;
+  color: #ffee00;
 }
 
 h2::before {
@@ -174,16 +175,6 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
-nav > ul > li > a:visited,
-nav > ul > li > a:focus,
-nav > ul > li > a:hover {
-  text-decoration: underline;
-}
-
-nav > ul > li > a:active {
-  color: #f1f3f380;
-}
-
 .social {
   padding-left: 0;
 }
@@ -260,12 +251,25 @@ Medium devices (640px and larger)
     margin-top: 0px;
   }
 
+  #work {
+    margin-top: 100px;
+  }
+
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+  main {
+    padding-top: 180px;
+  }
+
+  .intro-text {
+  width: 50%;
+  margin: auto;
+  }
 
   .col-lg-7 {
     width: 58%;
