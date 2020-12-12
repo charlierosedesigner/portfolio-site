@@ -293,6 +293,7 @@ Medium devices (640px and larger)
     height: 1px;
     background-color: #ffee00;
     margin-top: 0px;
+    margin-bottom: 20px;
   }
 
   br {
