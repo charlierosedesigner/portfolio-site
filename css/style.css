@@ -4,7 +4,6 @@ Primary Color (Yellow): #ffee00;
 Primary Color (White): #f1f3f3;
 Secondary Color (Black): #141616;
 */
-
 * {
   box-sizing: border-box;
 }
@@ -22,14 +21,14 @@ header {
   background-color: #ffee00;
   text-align: center;
   padding: 10px;
-  box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 15px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   display: inline-block;
   width: 100%;
 }
 
 main {
-  padding-top: 131px;
+  padding-top: 150px;
 }
 
 h1 {
@@ -50,9 +49,9 @@ h2 {
 }
 
 h2::before {
-content: "";
-clear: both;
-display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 h3 {
@@ -83,8 +82,9 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #f1f3f3;
-  color: #141616!important;
+  background-color: #ffee00;
+  color: #141616 !important;
+  margin-top: 15px;
   font-weight: 300;
   padding: 10px 20px;
   border-radius: 30px;
@@ -99,12 +99,12 @@ a:active {
 }
 
 .button:active {
-  background-color: #f1f3f380;
+  background-color: #ffee0080;
 }
 
 .button.contact,
 .button.contact:visited {
-  background-color: #f1f3f3;
+  background-color: #ffee00;
   color: #141616;
   font-size: 0.8em;
   padding: 5px 10px;
@@ -117,12 +117,11 @@ a:active {
 }
 
 .button.contact:active {
-  background-color: #f1f3f380;
+  background-color: #ffee0080;
   color: #14161680;
 }
 
 /* Layout styling */
-
 .logo {
   max-width: 75px;
 }
@@ -160,16 +159,16 @@ nav {
   width: 100%;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 10px;
   text-transform: uppercase;
   font-weight: 700;
@@ -194,8 +193,13 @@ nav > ul > li > a {
 }
 
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
 }
 
 .sun {
@@ -203,8 +207,13 @@ nav > ul > li > a {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -212,8 +221,13 @@ nav > ul > li > a {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
@@ -224,7 +238,6 @@ nav > ul > li > a {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-
   header {
     text-align: unset;
     padding: 20px 0 0;
@@ -234,6 +247,11 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin: 10px 0 0;
+  }
+
+  .intro-text {
+    width: 58%;
+    margin: auto;
   }
 
   .col-md-6 {
@@ -262,20 +280,22 @@ Medium devices (640px and larger)
     margin-top: 0px;
   }
 
+  br {
+    display: none;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
   main {
     padding-top: 180px;
   }
 
   .intro-text {
-  width: 50%;
-  margin: auto;
+    width: 50%;
+    margin: auto;
   }
 
   .col-lg-7 {
@@ -287,15 +307,14 @@ Large devices (1024px or larger)
   }
 
   .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
