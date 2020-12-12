@@ -110,6 +110,20 @@ a:active {
   opacity: 0.6;
 }
 
+.tel,
+.tel:visited {
+  color: #ffee00;
+}
+
+.tel:focus,
+.tel:hover {
+  color: #ffee0080;
+}
+
+.tel:active {
+  color: #ffee0060;
+}
+
 /* Layout styling */
 .logo {
   max-width: 75px;
@@ -181,6 +195,10 @@ nav>ul>li>a {
 
 .medi-margin {
   margin-top: 20px
+}
+
+.copyright {
+  font-size: 0.75em;
 }
 
 .berlin-illustration {
