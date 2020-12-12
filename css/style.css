@@ -154,6 +154,10 @@ a:active {
   background-color: #141616;
 }
 
+#work {
+  margin-top: 60px;
+}
+
 nav {
   display: inline-block;
   width: 100%;
@@ -184,6 +188,10 @@ nav>ul>li>a {
   list-style-type: none;
   padding-right: 10px;
   font-size: 30px;
+}
+
+.medi-margin {
+  margin-top: 20px
 }
 
 .berlin-illustration {
