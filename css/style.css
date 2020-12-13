@@ -45,6 +45,10 @@ h1 span {
   color: #ffee00;
 }
 
+.h1-margin {
+  margin-top: 0px;
+}
+
 h2 {
   font-size: 2em;
   font-weight: 700;
@@ -74,6 +78,10 @@ img {
 
 #contact h2 {
   margin-top: 0;
+}
+
+.skills-tools-margin {
+  padding-top: 30px;
 }
 
 a,
@@ -181,7 +189,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-  padding: 0;
+  padding: 10px;
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
@@ -209,6 +217,10 @@ nav>ul>li>a {
 }
 
 .medi-margin {
+  margin-top: 20px
+}
+
+.pocki-illustration-margin {
   margin-top: 20px
 }
 
@@ -247,7 +259,7 @@ hr {
   height: auto;
 }
 
-.cls-2 {
+.cls-4 {
   animation-duration: 15s;
   animation-name: plane-move;
   animation-iteration-count: infinite;
@@ -283,6 +295,12 @@ Medium devices (640px and larger)
   .intro-text {
     width: 58%;
     margin: auto;
+  }
+
+  .col-md-3 {
+    width: 25%;
+    float: left;
+    padding-right: 24px;
   }
 
   .col-md-6 {
@@ -330,6 +348,10 @@ Large devices (1024px or larger)
 
   .col-lg-5 {
     width: 42%;
+  }
+
+  .col-lg-about-text {
+    width: 83%;
   }
 
   .container {
