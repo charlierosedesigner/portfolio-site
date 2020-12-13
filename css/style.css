@@ -28,7 +28,11 @@ header {
 }
 
 main {
-  padding-top: 160px;
+  padding-top: 175px;
+}
+
+footer {
+  margin-top: 20px;
 }
 
 h1 {
@@ -199,6 +203,28 @@ nav>ul>li>a {
 
 .copyright {
   font-size: 0.75em;
+  float: left;
+  width: 50%;
+}
+
+hr {
+  height: 3px;
+  background-color: #ffee00;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.text-top-margin {
+  margin-top: 35px;
+}
+
+.fa-linkedin {
+  color: #ffee00;
+  margin-top: 20px;
+}
+
+.fa-behance-square {
+  color: #ffee00;
 }
 
 .berlin-illustration {
@@ -289,12 +315,6 @@ Medium devices (640px and larger)
     margin-top: 100px;
   }
 
-  hr {
-    height: 1px;
-    background-color: #ffee00;
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
 
   br {
     display: none;
