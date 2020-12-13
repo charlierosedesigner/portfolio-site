@@ -241,52 +241,28 @@ hr {
   color: #ffee00;
 }
 
-.berlin-illustration {
+.holiday {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-@keyframes color-change {
+.cls-2 {
+  animation-duration: 15s;
+  animation-name: plane-move;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes plane-move {
   from {
-    fill: #edc655;
+    transform: translate(450px, 0px);
   }
 
   to {
-    fill: #f76414;
+    transform: translate(-1000px, 50px);
   }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 50s cloud-move-reverse infinite alternate linear;
 }
 
 /* ==============================
