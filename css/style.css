@@ -61,6 +61,7 @@ h2::before {
 h3 {
   font-size: 1.25em;
   font-weight: 700;
+  color: #ffee00;
 }
 
 img {
@@ -180,20 +181,30 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-  padding: 0 10px;
+  padding: 0;
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
 }
 
 .social {
-  padding-left: 0;
+  margin-top: 40px;
+  padding: 0;
+  float: right;
+  width: 42%;
+}
+
+.social-padding {
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 
 .social li {
   display: inline-block;
   list-style-type: none;
-  padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 0;
   font-size: 30px;
 }
 
@@ -202,9 +213,11 @@ nav>ul>li>a {
 }
 
 .copyright {
+  margin-top: 42px;
+  display: inline-block;
   font-size: 0.75em;
   float: left;
-  width: 50%;
+  width: 58%;
 }
 
 hr {
@@ -220,7 +233,8 @@ hr {
 
 .fa-linkedin {
   color: #ffee00;
-  margin-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .fa-behance-square {
