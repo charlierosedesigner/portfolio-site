@@ -1,9 +1,10 @@
 /*
 Colors used:
 Primary Color (Yellow): #ffee00;
-Primary Color (White): #f1f3f3;
-Secondary Color (Black): #141616;
+Primary Color (Black): #141616;
+Secondary Color (White): #f1f3f3;
 */
+
 * {
   box-sizing: border-box;
 }
@@ -292,6 +293,14 @@ Medium devices (640px and larger)
     margin: 10px 0 0;
   }
 
+  .main-margin {
+    padding-top: 140px;
+  }
+
+  .skills-tools-margin-md-about {
+    margin-top: 20px;
+  }
+
   .intro-text {
     width: 58%;
     margin: auto;
@@ -307,6 +316,7 @@ Medium devices (640px and larger)
     width: 50%;
     float: left;
     padding-right: 12px;
+    padding-bottom: 50px;
   }
 
   .col-md-6-text {
@@ -342,6 +352,10 @@ Large devices (1024px or larger)
     margin: auto;
   }
 
+  .main-margin {
+    padding-top: 175px;
+  }
+
   .col-lg-7 {
     width: 58%;
   }
@@ -352,6 +366,10 @@ Large devices (1024px or larger)
 
   .col-lg-about-text {
     width: 83%;
+  }
+
+  .skills-tools-margin-lg-about {
+    padding-top: 50px;
   }
 
   .container {
