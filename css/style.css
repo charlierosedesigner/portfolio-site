@@ -306,15 +306,17 @@ Medium devices (640px and larger)
     margin: auto;
   }
 
-  .col-md-3 {
-    width: 25%;
+  [class*="col-"] {
     float: left;
+  }
+
+  .col-md-4 {
+    width: 34%;
     padding-right: 24px;
   }
 
   .col-md-6 {
     width: 50%;
-    float: left;
     padding-right: 12px;
     padding-bottom: 50px;
   }
@@ -323,6 +325,10 @@ Medium devices (640px and larger)
     width: 50%;
     float: right;
     padding-left: 12px;
+  }
+
+  .col-md-8 {
+    width: 66%;
   }
 
   .pro-title {
@@ -356,6 +362,10 @@ Large devices (1024px or larger)
     padding-top: 175px;
   }
 
+  .col-lg-9 {
+    width: 75%;
+  }
+
   .col-lg-7 {
     width: 58%;
   }
@@ -364,8 +374,8 @@ Large devices (1024px or larger)
     width: 42%;
   }
 
-  .col-lg-about-text {
-    width: 83%;
+  .col-lg-3 {
+    width: 25%;
   }
 
   .skills-tools-margin-lg-about {
