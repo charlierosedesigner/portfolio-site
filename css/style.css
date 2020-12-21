@@ -35,6 +35,17 @@ footer {
   margin-top: 20px;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
 h1 {
   font-size: 2.75em;
   line-height: 1.2;
@@ -263,6 +274,10 @@ hr {
   animation-timing-function: linear;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 @keyframes plane-move {
   from {
     transform: translate(450px, 0px);
@@ -290,6 +305,14 @@ Medium devices (640px and larger)
 
   nav>ul>li {
     display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
   }
 
   .main-margin {
