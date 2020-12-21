@@ -28,7 +28,7 @@ header {
 }
 
 main {
-  padding-top: 175px;
+  padding-top: 150px;
 }
 
 footer {
@@ -37,6 +37,7 @@ footer {
 
 .navtoggle, .navtoggle.responsive {
   position: relative;
+  vertical-align: middle;
 }
 
 .navtoggle li .icon {
@@ -152,6 +153,7 @@ a:active {
 /* Layout styling */
 .logo {
   max-width: 75px;
+  vertical-align: middle;
 }
 
 .container {
@@ -186,14 +188,10 @@ a:active {
   margin-top: 60px;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -302,6 +300,11 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin: 10px 0 0;
+  }
+
+  nav>ul {
+    list-style-type: none;
+    margin: 16px;
   }
 
   nav>ul>li {
