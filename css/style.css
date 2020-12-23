@@ -9,6 +9,10 @@ Secondary Color (White): #f1f3f3;
   box-sizing: border-box;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 body {
   background-color: #141616;
   font-family: 'Ubuntu', sans-serif;
@@ -337,6 +341,16 @@ Medium devices (640px and larger)
 
   nav>ul>li {
     display: inline-block;
+  }
+
+  .navtoggle.responsive nav {
+  padding: 0;
+  }
+
+  .navtoggle.responsive li {
+  display: block;
+  padding: 0;
+  border-top: 0;
   }
 
   .navtoggle li:not(:last-child) {
