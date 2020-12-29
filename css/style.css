@@ -4,13 +4,12 @@ Primary Color (Yellow): #ffee00;
 Primary Color (Black): #141616;
 Secondary Color (White): #f1f3f3;
 */
-
 * {
   box-sizing: border-box;
 }
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -60,7 +59,7 @@ footer {
   padding: 24px 0 0;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -95,14 +94,14 @@ h1 span {
 }
 
 .h1-margin {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 h2 {
   font-size: 2em;
   font-weight: 700;
   color: #ffee00;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 h2::before {
@@ -207,7 +206,7 @@ a:active {
 }
 
 #hero h1 {
-  margin: 0px;
+  margin: 0;
   padding: 0.67em 0;
 }
 
@@ -259,11 +258,11 @@ nav>ul>li>a {
 }
 
 .medi-margin {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .pocki-illustration-margin {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .copyright {
@@ -277,7 +276,7 @@ nav>ul>li>a {
 hr {
   height: 3px;
   background-color: #ffee00;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -311,7 +310,7 @@ hr {
 
 @keyframes plane-move {
   from {
-    transform: translate(450px, 0px);
+    transform: translate(450px, 0);
   }
 
   to {
@@ -344,13 +343,13 @@ Medium devices (640px and larger)
   }
 
   .navtoggle.responsive nav {
-  padding: 0;
+    padding: 0;
   }
 
   .navtoggle.responsive li {
-  display: block;
-  padding: 0;
-  border-top: 0;
+    display: block;
+    padding: 0;
+    border-top: 0;
   }
 
   .navtoggle li:not(:last-child) {
@@ -358,7 +357,7 @@ Medium devices (640px and larger)
   }
 
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
 
   .main-margin {
@@ -400,13 +399,12 @@ Medium devices (640px and larger)
   }
 
   .pro-title {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   #work {
     margin-top: 100px;
   }
-
 
   br {
     display: none;
@@ -455,7 +453,6 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 /* ==============================
