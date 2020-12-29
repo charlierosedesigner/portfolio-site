@@ -342,6 +342,13 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
+  .nav-active-style,
+  .nav-active-style:focus,
+  .nav-active-style:hover,
+  .nav-active-style:active {
+    text-decoration: underline;
+  }
+
   .navtoggle.responsive nav {
     padding: 0;
   }
